@@ -5,18 +5,43 @@ File Name: style.css
 [Table of contents]
 1.Import fonts
 2. Importar font-awesome and animate.css
+3. basic styles
 -----------------------------*/
 
 /*----------------------------
 import fonts
 -----------------------------*/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,600,700,900);
-@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,500i,700,700i);
 @import url(https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i);
 /*---------------------------
 2. import files
 -----------------------------*/
-@import url(animate.css);
-@import url(font-awesome.min.css);
+@import url(./animate.css);
+@import url(./font-awesome.min.css);
+
+/*---------------------------
+3. basic style
+-----------------------------*/
+* {
+  margin: 0;
+  padding: 0;
+  outline: none !important;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #898989;
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  line-height: normal;
+  font-weight: 400;
+  overflow-x: hidden;
+}
+
+body{
+    overflow-x:hidden ;
+}
