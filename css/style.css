@@ -7,6 +7,7 @@ File Name: style.css
 2. Importar font-awesome and animate.css
 3. basic styles
 4. loader
+5. header
 -----------------------------*/
 
 /*----------------------------
@@ -112,4 +113,125 @@ body{
 	to {
 		-moz-transform: rotatey(360deg);
 	}
+}
+
+.full_layout_without_container {
+	padding: 80px 15px 50px;
+}
+
+.opacity_half_color {
+	opacity: 0.5;
+}
+
+.opacity_70_color {
+	opacity: 0.7;
+}
+
+.padding_75 {
+	padding: 75px 0;
+}
+
+/*---------------------------
+5.Header
+-----------------------------*/
+
+/*----- Header Top -----*/
+
+header {
+	position: relative;
+	z-index: 1;
+}
+
+header .right_bt {
+	float: right;
+}
+
+header .right_bt .btn {
+	margin: 26px 0 0;
+}
+
+.header_top {
+	min-height: 50px;
+}
+
+.header_bottom {
+	min-height: auto;
+}
+
+.header_top ul {
+	list-style: none;
+	margin: 10px 0;
+	padding: 0;
+}
+
+.header_top ul li {
+	font-size: 14px;
+	color: #fff;
+	float: left;
+}
+
+.header_top ul li i {
+	margin: 0 2px 0 0;
+}
+
+.header_top ul li i {
+	color: #fff;
+	transition: ease all 0.2s;
+	font-size: 18px;
+	margin-right: 5px;
+}
+
+.header_top .social_icon ul li a {
+	color: #fff;
+}
+
+.top_information.pull-left li {
+	margin-right: 20px;
+}
+
+.top_information.pull-right li {
+	margin-left: 20px;
+}
+
+.logo {
+	float: left;
+	margin: 19px 0 19px;
+	position: relative;
+	left: 0;
+}
+
+.logo img {
+	height: 80px;
+}
+
+.header_style_1 .header_top {
+	position: relative;
+}
+
+.make_appo {
+	float: right;
+}
+
+.make_appo .btn.white_btn {
+	margin: 0;
+	border-radius: 0;
+	font-weight: 600;
+	padding: 0 35px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.topbar-left {
+	float: left;
+}
+
+.header_top .topbar-left .list-inline {
+	float: left;
+	margin: 13px 0;
+}
+
+.header_top ul li {
+	font-size: 13px;
+	color: #fff;
+	float: left;
+	margin-right: 20px;
 }
